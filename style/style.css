@@ -1,0 +1,253 @@
+h1 {
+    font-size: 80px !important;
+    text-align: center;
+}
+
+/* header section start */
+header {
+    height: 670px;
+}
+
+.navigation {
+    padding: 0 100px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+    padding: 30px 5px;
+    margin: 0 5px;
+    justify-content: center;
+}
+
+.navigation a {
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    font-family: Arial;
+    margin: 0 5px;
+
+}
+
+.navigation a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-logo {
+    padding-left: 10%;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.video-container {
+    z-index: -100;
+    width: 100%;
+    /* height: 95%; */
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#video-bg {
+    width: 100%;
+
+}
+
+.nav-section {
+
+    padding-top: 85px;
+}
+
+
+
+.tagline-left {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.tagline-right {
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+.tagline-video {
+    width: 75%;
+}
+
+.tagline-right-text {
+    position: absolute;
+    margin-top: 9%;
+    text-align: center;
+    margin-left: 17%;
+    font-family: Arial;
+    color: #fff;
+    width: 290px;
+    font-size: 40px;
+}
+
+.tagline-left-text {
+    position: absolute;
+    margin-top: 9%;
+    text-align: center;
+    margin-left: 11%;
+    font-family: Arial;
+    color: #fff;
+    width: 375px;
+    font-size: 40px;
+}
+
+.middle-area {
+    position: absolute;
+    top: 50%;
+    color: white;
+}
+
+.middle-area h1 {}
+
+/* about section  */
+
+.communicate {
+    text-align: center;
+    align-items: center;
+    background-image: url(../images/about.jpg);
+
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    height: 650px;
+    padding: 40px 20px;
+
+
+}
+
+.middle-about {
+    top: 50%;
+    margin: 0;
+    position: relative;
+
+}
+
+
+
+/* gallery section  */
+.gallery-section {
+    text-align: center;
+    align-items: center;
+    background-image: url(../images/gallery.jpg);
+
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    height: 650px;
+    padding: 40px 20px;
+
+}
+
+.middle-gallery {
+    top: 50%;
+    margin: 0;
+    position: relative;
+}
+
+/* press section  */
+.press-section {
+    text-align: center;
+    align-items: center;
+    background-image: url(../images/press.jpg);
+
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    height: 650px;
+    padding: 40px 20px;
+
+}
+
+.middle-press {
+    top: 50%;
+    margin: 0;
+    position: relative;
+}
+
+/* speaking section  */
+.speaking-section {
+    text-align: center;
+    align-items: center;
+    background-image: url(../images/speaking.jpg);
+
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    height: 650px;
+    padding: 40px 20px;
+
+}
+
+.middle-speaking {
+    top: 50%;
+    margin: 0;
+    position: relative;
+}
+
+/* contact section  */
+.contact-section {
+    text-align: center;
+    align-items: center;
+    background-image: url(../images/contact.jpg);
+
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    height: 650px;
+    padding: 40px 20px;
+
+}
+
+.middle-contact {
+    top: 50%;
+    margin: 0;
+    position: relative;
+}
+
+/* footer section  */
+footer {
+    height: 300px;
+    background-color: #343A40;
+
+
+}
+
+.middle-footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.middle-footer a {
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    font-family: Arial;
+
+
+}
+
+.middle-footer a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+footer h6 {
+    text-align: center;
+}
