@@ -124,7 +124,7 @@ header {
     text-align: center;
     align-items: center;
     background-image: url(../images/about.jpg);
-
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
     color: #fff;
@@ -140,7 +140,22 @@ header {
     position: relative;
 
 }
-
+@media (max-width: 991px)
+{
+    .communicate {
+     
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: #fff;
+        /* width: 100%; */
+        /* padding: 40px 20px; */
+        height: 400px;
+    
+    
+    }
+}
 
 
 /* gallery section  */
