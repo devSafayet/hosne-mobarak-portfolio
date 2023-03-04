@@ -1,5 +1,5 @@
 h1 {
-    font-size: 80px !important;
+    /* font-size: 80px !important; */
     text-align: center;
 }
 
@@ -29,7 +29,6 @@ header {
     color: #fff;
     font-family: Arial;
     margin: 0 5px;
-
 }
 
 .navigation a:hover {
@@ -58,15 +57,11 @@ header {
 
 #video-bg {
     width: 100%;
-
 }
 
 .nav-section {
-
     padding-top: 85px;
 }
-
-
 
 .tagline-left {
     float: left;
@@ -108,42 +103,33 @@ header {
 
 .middle-area {
     /* position: absolute; */
-        /* top: 50%;
+    /* top: 50%;
         width: 100%; */
     color: white;
     text-align: center;
-
-    
 }
-
-
 
 /* about section  */
 
 .communicate {
     text-align: center;
     align-items: center;
-    background-image: url(../images/about.jpg);
+    /* background-image: url(../images/about.jpg); */
     background-position: center;
-    background-size: cover;
+    /* background-size: cover; */
     background-attachment: fixed;
     color: #fff;
     height: 700px;
-    padding: 40px 20px;
-
-
+    /* padding: 40px 20px; */
 }
 
 .middle-about {
     top: 50%;
     margin: 0;
     position: relative;
-
 }
-@media (max-width: 991px)
-{
+@media (max-width: 991px) {
     .communicate {
-     
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -152,24 +138,20 @@ header {
         /* width: 100%; */
         /* padding: 40px 20px; */
         height: 400px;
-    
-    
     }
 }
-
 
 /* gallery section  */
 .gallery-section {
     text-align: center;
     align-items: center;
-    background-image: url(../images/gallery.jpg);
-
-    background-size: cover;
+    /* background-image: url(../images/about.jpg); */
+    background-position: center;
+    /* background-size: cover; */
     background-attachment: fixed;
     color: #fff;
     height: 700px;
-    padding: 40px 20px;
-
+    /* padding: 40px 20px; */
 }
 
 .middle-gallery {
@@ -182,14 +164,13 @@ header {
 .press-section {
     text-align: center;
     align-items: center;
-    background-image: url(../images/press.jpg);
-
-    background-size: cover;
+    /* background-image: url(../images/about.jpg); */
+    background-position: center;
+    /* background-size: cover; */
     background-attachment: fixed;
     color: #fff;
     height: 700px;
-    padding: 40px 20px;
-
+    /* padding: 40px 20px; */
 }
 
 .middle-press {
@@ -200,26 +181,26 @@ header {
 
 /* press details style part  */
 
-.press-details{
+.press-details {
     background: black;
 }
-  
-  .press-card-body {
+
+/* .press-card-body {
     width: 100%;
     height: 100%;
-    display: flex;
+    
     align-items: center;
     justify-content: center;
     
-  }
-  
-  .wrapper {
+  } */
+
+/* .wrapper {
     display: flex;
     width: 90%;
     justify-content: space-around;
-  }
-  
-  .press-card {
+  } */
+
+.press-card {
     width: 280px;
     height: 360px;
     border-radius: 15px;
@@ -230,37 +211,37 @@ header {
     align-items: flex-end;
     transition: 0.4s ease-out;
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
-  }
-  .press-card:hover {
+}
+.press-card:hover {
     transform: translateY(20px);
-  }
-  .card:hover:before {
+}
+.card:hover:before {
     opacity: 1;
-  }
-  .press-card:hover .info {
+}
+.press-card:hover .info {
     opacity: 1;
     transform: translateY(0px);
-  }
-  
-  .press-card img {
+}
+
+.press-card img {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     position: absolute;
     top: 0;
     left: 0;
     border-radius: 15px;
-  }
-  .info {
+}
+.info {
     margin: auto;
     position: relative;
     color: white;
     opacity: 0;
     transform: translateY(30px);
     transition: 0.5s;
-  }
-  .info button{
+}
+.info button {
     outline: none;
     border: none;
     border-radius: 3px;
@@ -268,21 +249,19 @@ header {
     color: black;
     font-weight: bold;
     cursor: pointer;
-  }
-
+}
 
 /* creative work  */
 .creative-section {
     text-align: center;
     align-items: center;
-    background-image: url(../images/hosne\ mobarak-\ natok\ Joler\ Vetor\ joler\ bisorjon\ 02.jpg);
-
-    background-size: cover;
+    /* background-image: url(../images/about.jpg); */
+    background-position: center;
+    /* background-size: cover; */
     background-attachment: fixed;
     color: #fff;
     height: 700px;
-    padding: 40px 20px;
-
+    /* padding: 40px 20px; */
 }
 
 .middle-creative {
@@ -295,14 +274,13 @@ header {
 .blogs-section {
     text-align: center;
     align-items: center;
-    background-image: url(../images/hosne\ mobarak\ -\ natok\ Jodi\ Laigga\ Jay.jpg);
-
-    background-size: cover;
+    /* background-image: url(../images/about.jpg); */
+    background-position: center;
+    /* background-size: cover; */
     background-attachment: fixed;
     color: #fff;
     height: 700px;
-    padding: 40px 20px;
-
+    /* padding: 40px 20px; */
 }
 
 .middle-blogs {
@@ -314,14 +292,13 @@ header {
 .social-section {
     text-align: center;
     align-items: center;
-    background-image: url(../images/speaking.jpg);
-
-    background-size: cover;
+    /* background-image: url(../images/about.jpg); */
+    background-position: center;
+    /* background-size: cover; */
     background-attachment: fixed;
     color: #fff;
     height: 700px;
-    padding: 40px 20px;
-
+    /* padding: 40px 20px; */
 }
 
 .middle-social {
@@ -329,24 +306,24 @@ header {
     margin: 0;
     position: relative;
 }
-/* social details setion  */
-.social-details .right-side a , .left-side a{
-color: white;
-font-weight: bold;
+/* social details section  */
+.social-details .right-side a,
+.left-side a {
+    color: white;
+    font-weight: bold;
 }
 
 /* contact section  */
 .contact-section {
     text-align: center;
     align-items: center;
-    background-image: url(../images/contact.jpg);
-
-    background-size: cover;
+    /* background-image: url(../images/about.jpg); */
+    background-position: center;
+    /* background-size: cover; */
     background-attachment: fixed;
     color: #fff;
     height: 700px;
-    padding: 40px 20px;
-
+    /* padding: 40px 20px; */
 }
 
 .middle-contact {
@@ -358,25 +335,20 @@ font-weight: bold;
 /* footer section  */
 footer {
     height: 300px;
-    background-color: #343A40;
-
-
+    background-color: #343a40;
 }
 
 .middle-footer ul {
     list-style-type: none;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
-
 }
 
 .middle-footer a {
     text-decoration: none;
-    padding: 10px;
+    /* padding: 10px; */
     color: #fff;
     font-family: Arial;
-
-
 }
 
 .middle-footer a:hover {
@@ -388,4 +360,33 @@ footer h6 {
     text-align: center;
 }
 
+/* media query for tablet */
+
+@media only screen and (max-width: 998px) {
+    header {
+        height: 520px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    header {
+        height: 340px;
+    }
+}
+/* media query for mobile */
+
+@media only screen and (max-width: 576px) {
+    header {
+        height: 240px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    header {
+        height: 220px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    header {
+        height: 180px;
+    }
+}
 /* extra  */

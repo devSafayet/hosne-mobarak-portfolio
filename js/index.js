@@ -8,7 +8,7 @@ function addAboutData() {
                 id="about-btn">-</button>
         </a>
         <div class="row">
-            <div class="col-6 px-3">
+            <div class="col-lg-6 mb-4">
                 <h4 class="mb-5 ">INTRODUCTION</h4>
                 <p>
                     Hosne Mobarak is an Bangladeshi actor and screenwriter best known for creating the political
@@ -38,9 +38,9 @@ function addAboutData() {
                 </p>
                 <img style="width: 48%; background:currentColor;" src="./images/sing.png" alt="">
             </div>
-            <div class="col-6">
-                <div class="d-flex ml-4">
-                    <div class="mx-4">
+            <div class="col-lg-6">
+                <div class="d-flex ">
+                    <div class="">
                         <h4 class="mb-5">FILMOGRAPHY</h4>
                         <p>Six Underground (2019)</p>
                         <p>Mary Magdalene (2018</p>
@@ -87,19 +87,29 @@ function addGalleryData() {
                 id="about-btn">-</button>
         </a>
         <div class="row px-5">
-            <div class="col-6">
-                <img class="m-2" src="./images/hosne mobarak.jpg" alt="">
-                <img class="m-2" src="./images/hosne mobarak - natok Akranto Jokhon.jpg" alt="">
-                <img class="m-2" src="./images/hosne mobarak - natok Jodi Laigga Jay.jpg" alt="">
-            </div>
-            <div class="col-6">
-                <img class="m-2" src="./images/hosne mobarak - natok Sat Dakat Hatem Ta E.jpg" alt="">
-                <!-- <img class="m-2" src="./images/hosne mobarak- natok Joler Vetor joler bisorjon 02.jpg" alt="">
-                <img class="m-2" src="./images/hosne mobarak- natok Joler Vetor joler bisorjon.jpg" alt="">
-                <img class="m-2" src="./images/hosne mobarak- TV Proggram Boimela 07.jpg" alt=""> -->
-            </div>
+           <div class="col-lg-4 col-md-6 mb-2">
+            <img class="img-fluid" src="./images/img1.jpg" alt="" width="300" height="300">
+           </div>
+           <div class="col-lg-4 col-md-6 mb-2">
+            <img class="img-fluid" src="./images/img2.jpg" alt="" width="300" height="300">
+           </div>
+           <div class="col-lg-4 col-md-6 mb-2">
+            <img class="img-fluid" src="./images/img3.jpg" alt="" width="300" height="200">
+           </div>
+           <div class="col-lg-4 col-md-6 mb-2">
+            <img class="img-fluid" src="./images/img4.jpg" alt="" width="300" height="200">
+           </div>
+           <div class="col-lg-4 col-md-6 mb-2">
+            <img class="img-fluid" src="./images/img6.jpg" alt="" width="300" height="200">
+           </div>
+           <div class="col-lg-4 col-md-6 mb-2">
+            <img class="img-fluid" src="./images/img9.jpg" alt="" width="300" height="200">
+           </div>
+           
         </div>
     </section>
+        
+   
         `;
     document.getElementById("gallery-section").innerHTML = addGalleryData;
 }
@@ -122,31 +132,37 @@ function addPressData() {
                 id="about-btn">-</button>
         </a>
         <h5 class="py-5 text-center text-white">FROM THE PRESS</h5>
-        <div class="press-card-body">
-            <div class="wrapper">
+        <div class="press-card-body container">
+            <div class="justify-content-center text-center mx-auto row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col mb-2">
                 <div class="press-card">
-                    <img src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
-                    <div class="info text-center"> 
-                        <a href="#">
-                            <button class="p-2 rounded">VIEW ARTICLE</button>
-                        </a>
-                    </div>
+                <img class="img-fluid" src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
+                <div class="info text-center"> 
+                    <a href="#">
+                        <button class="p-2 rounded">VIEW ARTICLE</button>
+                    </a>
                 </div>
-                <div class="press-card">
-                    <img src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
-                    <div class="info text-center"> 
-                        <a href="#">
-                            <button class="p-2 rounded">VIEW ARTICLE</button>
-                        </a>
-                    </div>
+            </div>
                 </div>
+                <div class="col mb-2">
+                <div class="press-card ">
+                <img class="img-fluid" src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
+                <div class="info text-center"> 
+                    <a href="#">
+                        <button class="p-2 rounded">VIEW ARTICLE</button>
+                    </a>
+                </div>
+            </div>
+                </div>
+                <div class="col">
                 <div class="press-card">
-                    <img src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
-                    <div class="info text-center"> 
-                        <a href="#">
-                            <button class="p-2 rounded">VIEW ARTICLE</button>
-                        </a>
-                    </div>
+                <img class="img-fluid" src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
+                <div class="info text-center"> 
+                    <a href="#">
+                        <button class="p-2 rounded">VIEW ARTICLE</button>
+                    </a>
+                </div>
+            </div>
                 </div>
             </div>
         </div>
@@ -258,7 +274,30 @@ function addBlogsData() {
             id="social-btn">-</button>
     </a>
     <h2 class="text-center text-white mb-5">Blogs</h2>
-    <div class="d-flex justify-content-center">
+    <div class="justify-content-center row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"">
+        <div class="col">
+        <div class="card m-3" style="width: 18rem;">
+        <img class="card-img-top" src="./images/hosne mobarak.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Blog title</h5>
+          <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ex nulla omnis eos accusamus vero quos commodi doloribus reprehenderit.</p>
+          <a href="#" class="btn btn-primary">BLOG DETAILS</a>
+        </div>
+      </div>
+        
+        </div>
+        <div class="col">
+        <div class="card m-3" style="width: 18rem;">
+        <img class="card-img-top" src="./images/hosne mobarak.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Blog title</h5>
+          <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ex nulla omnis eos accusamus vero quos commodi doloribus reprehenderit.</p>
+          <a href="#" class="btn btn-primary">BLOG DETAILS</a>
+        </div>
+      </div>
+        
+        </div>
+        <div class="col">
         <div class="card m-3" style="width: 18rem;">
             <img class="card-img-top" src="./images/hosne mobarak.jpg" alt="Card image cap">
             <div class="card-body">
@@ -267,22 +306,7 @@ function addBlogsData() {
               <a href="#" class="btn btn-primary">BLOG DETAILS</a>
             </div>
           </div>
-        <div class="card m-3" style="width: 18rem;">
-            <img class="card-img-top" src="./images/hosne mobarak.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Blog title</h5>
-              <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ex nulla omnis eos accusamus vero quos commodi doloribus reprehenderit.</p>
-              <a href="#" class="btn btn-primary">BLOG DETAILS</a>
-            </div>
-          </div>
-        <div class="card m-3" style="width: 18rem;">
-            <img class="card-img-top" src="./images/hosne mobarak.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Blog title</h5>
-              <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ex nulla omnis eos accusamus vero quos commodi doloribus reprehenderit.</p>
-              <a href="#" class="btn btn-primary">BLOG DETAILS</a>
-            </div>
-          </div>
+        </div>
           
     </div>
 </section>
